@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "My Cool Extension",
+  "name": "Bookmarks on New Tab",
   "version": "0.1",
   "permissions": [
     "bookmarks"
