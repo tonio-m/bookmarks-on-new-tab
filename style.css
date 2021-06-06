@@ -1,0 +1,78 @@
+body {
+  color: white;
+  font-size: 20px;
+  background: black;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 0 0 1em 0;
+  caption-side: top;
+}
+
+caption, td, th {
+  padding: 0.5em;
+  max-width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tbody {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+tbody th, tfoot th {
+  border: 0;
+}
+
+th.name {
+  width: 25%;
+}
+
+th.location {
+  width: 20%;
+}
+
+th.lasteruption {
+  width: 30%;
+}
+
+th.eruptiontype {
+  width: 25%;
+}
+
+tfoot {
+  text-align: center;
+  color: #555;
+  font-size: 0.8em;
+}
+
+a {
+  color: #888888;
+  text-decoration:none;
+  white-space: nowrap;
+}
+
+a span {
+  text-overflow: ellipsis;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+hr {
+  width: 100%;
+}
+
+th {
+  text-decoration: underline;     
+}
+
+.itembox {
+  width: 100px;
+}
