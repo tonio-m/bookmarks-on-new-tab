@@ -14,7 +14,7 @@ makeFolder = (obj) => {
   return `
   <div class="itembox">
     <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/default.ico' />
-    <a href="brave://bookmarks/?id=${obj.id}"><span>${obj.title}</span></a> 
+    <a href="chrome://bookmarks/?id=${obj.id}"><span>${obj.title}</span></a> 
   </div>
   `
 }
