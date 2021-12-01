@@ -13,10 +13,12 @@ const makeHyperlink = (obj) => {
   img.height = 16
   img.width = 16
 
+
   // create link element
   var link = document.createElement('a');
   link.textContent = obj.title
   link.href = obj.url
+
 
   // set both as children of div
   div.appendChild(img)
